@@ -1,0 +1,42 @@
+{
+  "name": "sonic",
+  "description": "Sonic The Hedge Coin is a cryptocurrency based on Polygon(MATIC). The Currency is used to buy stakes in peer-to-peer betting games. The currency is also used to buy NFTs and other items in the Sonic The Hedge Coin ecosystem.",
+  "symbol": "STHC",
+  "author": {
+    "name": "John Doe",
+    "email": "johndoe@dummy.com",
+    "url": "https://sonicthehedgecoin.com"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "hardhat test"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.8.0"
+  },
+  "devDependencies": {
+    "@openzeppelin/contracts-upgradeable": "^4.8.0",
+    "@openzeppelin/hardhat-upgrades": "^1.21.0",
+    "@ethersproject/abi": "^5.7.0",
+    "@ethersproject/providers": "^5.7.2",
+    "@nomicfoundation/hardhat-chai-matchers": "^1.0.4",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.6",
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "@nomiclabs/hardhat-ethers": "^2.2.0",
+    "@nomiclabs/hardhat-etherscan": "^3.1.1",
+    "@typechain/ethers-v5": "^10.1.1",
+    "@typechain/hardhat": "^6.1.4",
+    "@types/chai": "^4.3.3",
+    "@types/mocha": "^9.1.1",
+    "@types/node": "^18.11.6",
+    "chai": "^4.3.6",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.12.0",
+    "hardhat-gas-reporter": "^1.0.9",
+    "solidity-coverage": "^0.8.2",
+    "ts-node": "^10.9.1",
+    "typechain": "^8.1.1",
+    "typescript": "^4.8.4"
+  }
+}
